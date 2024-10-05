@@ -1,0 +1,22 @@
+# Build Folders (Bin, Obj, etc.)
+.vs/
+bin/
+obj/
+*.user
+*.rsuser
+*.suo
+
+# Visual Studio Code
+.vscode/
+
+# Logs
+*.log
+
+# Packages
+packages/
+
+# Dependency directories
+node_modules/
+
+# Ignore User Secrets
+secrets.json

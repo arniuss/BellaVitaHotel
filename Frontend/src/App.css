@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.app-container {
+  background-image: url('/Images/venice.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+  height: 100vh; 
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  position: relative; 
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7); 
+  z-index: 1; 
+}
+
+.content {
+  position: relative; 
+  color: white; 
+  z-index: 2;
+}
+
+h1 {
+  font-size: 48px;
+  margin: 0;
+  padding: 0;
+}
+
+
+.italian-flag {
+  background-image: url('/Images/flag-of-italy.png');
+  background-size: cover;
+  z-index: 2;
+  height: 5px;
+}
